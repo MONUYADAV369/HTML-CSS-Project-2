@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* navbar came center */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* iteam is horizontal */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;   
+}
+
+/* decorat list item text like home about */
+.item{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item:hover{
+    color: #00ffff;
+    cursor: pointer;
+}
+.button{
+    border: none;
+    background: #8a2be2;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px; 
+}
+.button:hover{
+    border: 1px solid #000000 ; 
+    background-color: #ffff;
+    color: #000000;
+}
+.contactbutton{
+    margin-right: 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+
+.leftmain h1{
+    margin: 10px;
+    font-size: 70px;
+}
+span{
+    color: #8a2be2;
+}
+.leftmain h2{
+    margin-right:10px;
+}
+
+.seebutton{
+    border: none;
+    background: #8a2be2;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;  
+}
+.seebutton:hover{
+    border: 1px solid #000000 ; 
+    background-color: #ffff;
+    color: #000000;
+
+}
+
+
+
+
